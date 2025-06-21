@@ -39,7 +39,7 @@ Four classifers were used to compare the prediction.
 
 ## Approach
 
-Data was cleaned to remove unnecessary columns prior to applying classifiers.  The classifiers were looped with the train-test data to make a comparison.  The results used for comparison were:
+Data was cleaned to remove unnecessary columns prior to applying classifiers.  The ideal K value was determined before the classifiers were looped with the train-test data to make a comparison.  The results used for comparison were:
 
 * Training Time Seconds
 * Training Accuracy
@@ -50,6 +50,9 @@ Data was cleaned to remove unnecessary columns prior to applying classifiers.  T
 * F2 Score Yes
 * Recall No
 * Recall Yes
+
+![image](https://github.com/user-attachments/assets/90217b67-1384-4fe0-837e-b123e4fe25c9)
+
 
 
 ## Conclusions
