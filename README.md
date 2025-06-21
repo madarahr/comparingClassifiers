@@ -70,8 +70,10 @@ Overall the Decision Tree Classifier has the best balance among the classifiers 
 
 ## Findings
 
+![image](https://github.com/user-attachments/assets/d6a89b65-b2e1-4f59-b985-82376e86999e)
+
 * Previous marketing campaigns that led to a successful outcome will need to be analyzed as this feature seemed to have the best impact in predicting the behavious of the clients.
 * The contact duration has also been shown to have a high impact on predicting the outcome of the client subscribing to the term deposit.
 * The contact month of March has had a positive impact on the decisions that the client will subscribe to a term deposit.
 
-CLearly, marketing campaigns have helped and contacting the clients during the month of March and a higher duration of contact has led to a successful outcome of subscription. 
+Clearly, marketing campaigns have helped and contacting the clients during the month of March and a higher duration of contact has led to a successful outcome of subscription. 
