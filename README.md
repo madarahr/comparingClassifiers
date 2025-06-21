@@ -54,23 +54,24 @@ Data was cleaned to remove unnecessary columns prior to applying classifiers.  T
 ![image](https://github.com/user-attachments/assets/90217b67-1384-4fe0-837e-b123e4fe25c9)
 
 
-
 ## Conclusions
 
 ![image](https://github.com/user-attachments/assets/d1bbeb72-c2d1-4ea1-99ff-8cca1c5cb8dc)
 
-Modeling:
-• Use of multiple machine learning models.
-• Cross-validation of models.
-• Grid search hyperparameters.
-• Appropriate interpretation of coefficients in models.
-• Appropriate interpretation of an evaluation metric.
-• Clear identification of an evaluation metric.
-• Clear rationale for use of the given evaluation metric.
+* Computing Time:  The Logistic Regression had the least computing time and the SVM had the most computing time.
 
-Findings:
-• Clearly stated business understanding of the problem.
-• Clean and organized notebook with data cleaning.
-• Correct and concise interpretation of descriptive and inferential statistics.
-• Clearly stated findings in their own section with actionable items highlighted in appropriate language for a nontechnical audience.
-• Next steps and recommendations.
+* Accuracy Score:  All of the classifiers haev a high accuracy score nidicating that the proportion of the correctly classified instances out of the total instances in the dataset.  All of the models had a high precision score for the clients that will not subscribe to the term deposit indicating a high confidence in the predictions made.  However, the classifiers were not accurate in predicting the clients that would subscribe to the term deposit expecially with the decision tree being below 50% accuracy.
+
+* Recall:  The models are good at predicting a good proportion of the clients that will not subcribing to the term deposit.  However, they are very poor in predicting clients who will subscribe to term deposit.  SVM performed the worst close to 0 for clients who will subscribe to term deposit.
+
+* F1 Score:  All the classifiers have a high F1 score for clients that will not subscribe to the term deposit, indicating a good balance between precision and recall.  All he classifiers have low F1 score for predictiing clients subscribing to term deposit suggesting a poor balance or poor performance on both metrics. 
+
+Overall the Decision Tree Classifier has the best balance among the classifiers in predicting the clients who will subscribe to a term deposit.
+
+## Findings
+
+* Previous marketing campaigns that led to a successful outcome will need to be analyzed as this feature seemed to have the best impact in predicting the behavious of the clients.
+* The contact duration has also been shown to have a high impact on predicting the outcome of the client subscribing to the term deposit.
+* The contact month of March has had a positive impact on the decisions that the client will subscribe to a term deposit.
+
+CLearly, marketing campaigns have helped and contacting the clients during the month of March and a higher duration of contact has led to a successful outcome of subscription. 
